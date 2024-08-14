@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B68DA09A2C5F92C1003EA4F2 /* IndexPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DA0992C5F92C1003EA4F2 /* IndexPageViewController.swift */; };
+		B68DA09E2C5FAC5B003EA4F2 /* HomeMainViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DA09D2C5FAC5B003EA4F2 /* HomeMainViewCtrl.swift */; };
 		B6A3CDBB2C5DD4B40001095A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A3CDBA2C5DD4B40001095A /* AppDelegate.swift */; };
 		B6A3CDBD2C5DD4B40001095A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A3CDBC2C5DD4B40001095A /* SceneDelegate.swift */; };
 		B6A3CDBF2C5DD4B40001095A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A3CDBE2C5DD4B40001095A /* ViewController.swift */; };
@@ -14,9 +16,23 @@
 		B6A3CDC52C5DD4B40001095A /* FlashMan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6A3CDC32C5DD4B40001095A /* FlashMan.xcdatamodeld */; };
 		B6A3CDC72C5DD4B60001095A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A3CDC62C5DD4B60001095A /* Assets.xcassets */; };
 		B6A3CDCA2C5DD4B60001095A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B6A3CDC92C5DD4B60001095A /* Base */; };
+		B6A3CDD22C5E2D120001095A /* HomeUITabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A3CDD12C5E2D120001095A /* HomeUITabbarController.swift */; };
+		B6FF53C92C6747AA00A42716 /* HomeContentPageViewCtl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF53C82C6747A900A42716 /* HomeContentPageViewCtl.swift */; };
+		B6FF53CB2C676E7800A42716 /* MakeMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF53CA2C676E7800A42716 /* MakeMoneyViewController.swift */; };
+		B6FF53CD2C676ECC00A42716 /* MakeMoneyHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF53CC2C676ECC00A42716 /* MakeMoneyHeaderViewController.swift */; };
+		B6FF53CF2C676F7200A42716 /* MakeMoneyAdListViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF53CE2C676F7200A42716 /* MakeMoneyAdListViewContoller.swift */; };
+		B6FF53D12C677AD400A42716 /* TestUIViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF53D02C677AD400A42716 /* TestUIViewContoller.swift */; };
+		B6FF53D42C6877A000A42716 /* AddTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF53D32C6877A000A42716 /* AddTaskModel.swift */; };
+		B6FF53D62C68783800A42716 /* AdEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF53D52C68783800A42716 /* AdEntity.swift */; };
+		B6FF53D82C68CFF600A42716 /* TaskDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF53D72C68CFF600A42716 /* TaskDetailController.swift */; };
+		B6FF53DB2C690B6F00A42716 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF53DA2C690B6F00A42716 /* NetworkManager.swift */; };
+		B6FF53DE2C69105400A42716 /* DataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF53DD2C69105400A42716 /* DataCollection.swift */; };
+		B6FF53E12C69127400A42716 /* ThreadFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF53E02C69127400A42716 /* ThreadFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B68DA0992C5F92C1003EA4F2 /* IndexPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPageViewController.swift; sourceTree = "<group>"; };
+		B68DA09D2C5FAC5B003EA4F2 /* HomeMainViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainViewCtrl.swift; sourceTree = "<group>"; };
 		B6A3CDB72C5DD4B40001095A /* FlashMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A3CDBA2C5DD4B40001095A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6A3CDBC2C5DD4B40001095A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +42,18 @@
 		B6A3CDC62C5DD4B60001095A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6A3CDC92C5DD4B60001095A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6A3CDCB2C5DD4B60001095A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A3CDD12C5E2D120001095A /* HomeUITabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUITabbarController.swift; sourceTree = "<group>"; };
+		B6FF53C82C6747A900A42716 /* HomeContentPageViewCtl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentPageViewCtl.swift; sourceTree = "<group>"; };
+		B6FF53CA2C676E7800A42716 /* MakeMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMoneyViewController.swift; sourceTree = "<group>"; };
+		B6FF53CC2C676ECC00A42716 /* MakeMoneyHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMoneyHeaderViewController.swift; sourceTree = "<group>"; };
+		B6FF53CE2C676F7200A42716 /* MakeMoneyAdListViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMoneyAdListViewContoller.swift; sourceTree = "<group>"; };
+		B6FF53D02C677AD400A42716 /* TestUIViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIViewContoller.swift; sourceTree = "<group>"; };
+		B6FF53D32C6877A000A42716 /* AddTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskModel.swift; sourceTree = "<group>"; };
+		B6FF53D52C68783800A42716 /* AdEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdEntity.swift; sourceTree = "<group>"; };
+		B6FF53D72C68CFF600A42716 /* TaskDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailController.swift; sourceTree = "<group>"; };
+		B6FF53DA2C690B6F00A42716 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B6FF53DD2C69105400A42716 /* DataCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollection.swift; sourceTree = "<group>"; };
+		B6FF53E02C69127400A42716 /* ThreadFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +86,11 @@
 		B6A3CDB92C5DD4B40001095A /* FlashMan */ = {
 			isa = PBXGroup;
 			children = (
+				B6FF53DF2C69122900A42716 /* threads */,
+				B6FF53D92C690B4B00A42716 /* network */,
+				B6FF53D22C68775A00A42716 /* data */,
 				B6A3CDBA2C5DD4B40001095A /* AppDelegate.swift */,
+				B6A3CDD12C5E2D120001095A /* HomeUITabbarController.swift */,
 				B6A3CDBC2C5DD4B40001095A /* SceneDelegate.swift */,
 				B6A3CDBE2C5DD4B40001095A /* ViewController.swift */,
 				B6A3CDC02C5DD4B40001095A /* Main.storyboard */,
@@ -66,8 +98,50 @@
 				B6A3CDC82C5DD4B60001095A /* LaunchScreen.storyboard */,
 				B6A3CDCB2C5DD4B60001095A /* Info.plist */,
 				B6A3CDC32C5DD4B40001095A /* FlashMan.xcdatamodeld */,
+				B6FF53D72C68CFF600A42716 /* TaskDetailController.swift */,
+				B68DA0992C5F92C1003EA4F2 /* IndexPageViewController.swift */,
+				B68DA09D2C5FAC5B003EA4F2 /* HomeMainViewCtrl.swift */,
+				B6FF53C82C6747A900A42716 /* HomeContentPageViewCtl.swift */,
+				B6FF53CA2C676E7800A42716 /* MakeMoneyViewController.swift */,
+				B6FF53CE2C676F7200A42716 /* MakeMoneyAdListViewContoller.swift */,
+				B6FF53CC2C676ECC00A42716 /* MakeMoneyHeaderViewController.swift */,
+				B6FF53D02C677AD400A42716 /* TestUIViewContoller.swift */,
 			);
 			path = FlashMan;
+			sourceTree = "<group>";
+		};
+		B6FF53D22C68775A00A42716 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B6FF53DC2C69101E00A42716 /* New Group */,
+				B6FF53D32C6877A000A42716 /* AddTaskModel.swift */,
+				B6FF53D52C68783800A42716 /* AdEntity.swift */,
+				B6FF53DD2C69105400A42716 /* DataCollection.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		B6FF53D92C690B4B00A42716 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				B6FF53DA2C690B6F00A42716 /* NetworkManager.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		B6FF53DC2C69101E00A42716 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B6FF53DF2C69122900A42716 /* threads */ = {
+			isa = PBXGroup;
+			children = (
+				B6FF53E02C69127400A42716 /* ThreadFactory.swift */,
+			);
+			path = threads;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +216,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6A3CDBF2C5DD4B40001095A /* ViewController.swift in Sources */,
+				B6FF53DE2C69105400A42716 /* DataCollection.swift in Sources */,
+				B6A3CDD22C5E2D120001095A /* HomeUITabbarController.swift in Sources */,
+				B6FF53CD2C676ECC00A42716 /* MakeMoneyHeaderViewController.swift in Sources */,
+				B6FF53D82C68CFF600A42716 /* TaskDetailController.swift in Sources */,
+				B6FF53DB2C690B6F00A42716 /* NetworkManager.swift in Sources */,
+				B68DA09A2C5F92C1003EA4F2 /* IndexPageViewController.swift in Sources */,
+				B6FF53CB2C676E7800A42716 /* MakeMoneyViewController.swift in Sources */,
+				B6FF53D62C68783800A42716 /* AdEntity.swift in Sources */,
+				B6FF53CF2C676F7200A42716 /* MakeMoneyAdListViewContoller.swift in Sources */,
 				B6A3CDBB2C5DD4B40001095A /* AppDelegate.swift in Sources */,
+				B6FF53D42C6877A000A42716 /* AddTaskModel.swift in Sources */,
+				B6FF53D12C677AD400A42716 /* TestUIViewContoller.swift in Sources */,
 				B6A3CDBD2C5DD4B40001095A /* SceneDelegate.swift in Sources */,
+				B6FF53E12C69127400A42716 /* ThreadFactory.swift in Sources */,
 				B6A3CDC52C5DD4B40001095A /* FlashMan.xcdatamodeld in Sources */,
+				B6FF53C92C6747AA00A42716 /* HomeContentPageViewCtl.swift in Sources */,
+				B68DA09E2C5FAC5B003EA4F2 /* HomeMainViewCtrl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
